@@ -1,0 +1,22 @@
+# Secrets
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Raw datasets (large; not needed since pre-built pickles are in data/)
+model_build/*.csv
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/secrets.toml
