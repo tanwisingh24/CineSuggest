@@ -24,7 +24,7 @@ st.set_page_config(
     initial_sidebar_state="collapsed",
 )
 
-DATA_DIR = Path(__file__).parent / "data"
+DATA_DIR = Path(__file__).parent
 PLACEHOLDER_POSTER = "https://placehold.co/500x750/1c1c24/9b9bb0?text=No+Poster"
 
 CUSTOM_CSS = """
